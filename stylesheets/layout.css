@@ -2,7 +2,7 @@ a {
   color: inherit;
 }
 
-h1, h2, h3, p, ul {
+h1, h2, h3, p, ul, blockquote {
   width: 700px;
   margin: 0 auto;
 }
@@ -21,4 +21,28 @@ h1 + p {
   line-height: 30px;
   color: rgba(0,0,0,0.4);
   margin-top: 15px;
+}
+
+img {
+  display: block;
+  width: 1020px;
+  margin: 80px auto;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 20px;
+  margin-top: 43px;
+  line-height: 30px;
+
+}
+
+h2 + p {
+  margin-top: 19px;
+  margin-bottom: 55px;
+
 }
