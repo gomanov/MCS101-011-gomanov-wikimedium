@@ -1,8 +1,28 @@
 
 
-nav ul {
+nav {
   position: fixed;
-  top: 0
-  left: 0
+  top: 19px;
+  left: 19px;
+  font-family: 'PT Sans Caption', sans-serif;
 
+}
+
+nav > ul {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 12px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, .4);
+
+}
+
+ul:nth-child(1) {
+  font-weight: bold;
+}
+
+ul > ul {
+  position: relative;
+  left: 10px;
 }

@@ -1,12 +1,15 @@
-article h1, 
-article h3, 
-article p, 
+article h1,
+article h2,
+article h3,
+article p,
+article ul,
 article blockquote {
   width: 700px;
   margin: 0 auto;
 }
 
-article h1, 
+article h1,
+article h2,
 article h3 {
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: bold;
@@ -30,15 +33,16 @@ article h1 + p + p {
   margin-top: 31px;
 }
 
-article p, 
-article li, 
+article p,
+article li,
 article blockquote {
+  font-family: 'PT Sans Caption', sans-serif;
   font-size: 20px;
   line-height: 34px;
 }
 
-article p, 
-article ul, 
+article p,
+article ul,
 article blockquote {
   margin-top: 29px;
 }
@@ -75,10 +79,19 @@ article li {
 
 article blockquote {
   font-style: italic;
+  position: relative;
 }
 
 article blockquote::before {
-  content: y
+  content: '';
+  position: absolute;
+  display: block;
+  left: -18px;
+  width: 3px;
+  height: 100%;
+  top: 0px;
+  background: black;
+  bottom: 0px;
 }
 
 article img {
@@ -97,10 +110,10 @@ article img + ul {
   margin-top: -3px;
 }
 
-h2 + img {
+article h2 + img {
   margin-top: 82px;
 }
 
-h3 + img {
+article h3 + img {
   margin-top: 81px;
 }
