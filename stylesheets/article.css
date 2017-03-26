@@ -1,3 +1,7 @@
+article a {
+  text-decoration: underline;
+}
+
 article h1,
 article h2,
 article h3,
@@ -116,4 +120,33 @@ article h2 + img {
 
 article h3 + img {
   margin-top: 81px;
+}
+
+
+@media all and (max-width: 1020px) {
+  article img {
+    width: 100%;
+  }
+}
+
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  article h1,
+  article h2,
+  article h3,
+  article p,
+  article ul,
+  article blockquote {
+        width: calc(100% - 40px);
+  }
+}
+
+@media all and (min-device-width: 230px) and (max-device-width: 480px) and (orientation: portrait) {
+  article h1,
+  article h2,
+  article h3,
+  article p,
+  article ul,
+  article blockquote {
+        width: calc(100% - 40px);
+  }
 }

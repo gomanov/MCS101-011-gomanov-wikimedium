@@ -1,28 +1,48 @@
 
 
-nav {
+.sidebar {
   position: fixed;
-  top: 19px;
+  top: 70px;
   left: 19px;
-  font-family: 'PT Sans Caption', sans-serif;
+  width: 300px;
+  padding: 25,30, 30px;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(0,0,0, .8);
+  opacity: .1;
+  transition: all .3s
 
 }
 
-nav > ul {
-  position: relative;
-  top: 20px;
-  left: 20px;
-  font-size: 12px;
-  line-height: 26px;
-  color: rgba(0, 0, 0, .4);
-
+.sidebar:hover {
+  opacity: 1;
 }
 
-ul:nth-child(1) {
+.sidebar li:hover {
+  opacity: .8;
+}
+
+.siderbar > ul > li:first-child {
   font-weight: bold;
 }
+.sidebar li {
+  margin-top: 12px;
+}
 
-ul > ul {
-  position: relative;
-  left: 10px;
+.sidebar * ul {
+  padding-left: 10px;
+  color: rgba(0,0,0, .4);
+}
+
+
+@media all and (max-width: 1340px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .sidebar {
+    display: none;
+  }
 }

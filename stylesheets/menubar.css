@@ -1,0 +1,32 @@
+.menubar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 50px;
+
+}
+
+.logo {
+  width: 180px;
+  height: 16 px;
+  background-image: url(../images/logo.svg);
+  background-size: cover;
+}
+
+.about {
+  font-size: 14px;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.2);
+  transition: all .3s ease-in-out;
+
+
+}
+
+.about:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
