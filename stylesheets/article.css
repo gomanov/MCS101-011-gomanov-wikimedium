@@ -1,21 +1,4 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @gomanov
- Sign out
- Watch 1
-  Star 0
-  Fork 1 ZakharDay/MCS101-011-Wikimedium
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs
-Branch: master Find file Copy pathMCS101-011-Wikimedium/stylesheets/article.css
-db24027  16 minutes ago
-@ZakharDay ZakharDay Лендинг
-1 contributor
-RawBlameHistory
-160 lines (133 sloc)  2.15 KB
+
 article {
   padding-bottom: 80px;
 }
@@ -138,6 +121,8 @@ article img + blockquote,
 article img + ul {
   margin-top: -3px;
 }
+
+
 
 article h2 + img {
   margin-top: 82px;
