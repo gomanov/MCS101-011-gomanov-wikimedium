@@ -14,15 +14,15 @@ a {
   text-decoration: none;
 }
 
-body {
-  font-family: 'PT Sans Caption', sans-serif;
-  min-width: 768px;
+.share {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
 }
+
 
 @media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   body {
     min-width: 320px;
-  }
-
   }
 }
