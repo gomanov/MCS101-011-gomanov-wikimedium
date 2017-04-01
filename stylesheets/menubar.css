@@ -8,25 +8,21 @@
   align-items: center;
   padding: 20px;
   height: 50px;
-
-}
+  }
 
 .logo {
   width: 180px;
-  height: 16 px;
-  background-image: url(../images/logo.svg);
+  height: 16px;
+  background-image: url(../images/posts/logo.svg);
   background-size: cover;
-}
-
+  }
 .about {
   font-size: 14px;
   line-height: 50px;
   color: rgba(0, 0, 0, 0.2);
   transition: all .3s ease-in-out;
-
-
-}
+  }
 
 .about:hover {
   color: rgba(0, 0, 0, 0.4);
-}
+  }
